@@ -95,7 +95,7 @@ do {
 
                 // Increment validInt
                 validInt += 1
-            
+    
             } else {
                 // Display error message in the output file
                 outputStr += "\(numStr) is not a valid integer. \n"
@@ -121,7 +121,6 @@ do {
         position += 1
     }
 
-    
     // Write the sum to the output file
     output.write(outputStr.data(using: .utf8)!)
 
